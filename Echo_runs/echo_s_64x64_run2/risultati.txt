@@ -1,0 +1,20 @@
+(deepecho-venv) (base) pandipc@PandiPC:~/projects/DeepEchoNet$ python test.py
+[INFO] Carico pesi da: Echo_runs/echo_s_64x64_run2/checkpoints/echo_s_64x64_run2_best.pth
+
+[DEBUG] Decoder input / skip connections:
+   bottleneck: torch.Size([1, 96, 8, 8])
+   enc[0] → (1, 8, 32, 32)
+   enc[1] → (1, 16, 32, 32)
+   enc[2] → (1, 32, 16, 16)
+   enc[3] → (1, 64, 8, 8)
+
+⚡ [INFERENCE SPEED] 313.65 FPS (3.19 ms/frame)
+
+Testing NYU Depth v2:   0%|                                                                     | 0/654 [00:00<?, ?it/s]
+[DEBUG] 00000_colors.png
+   pred_cm: min=158.84, max=406.71, mean=361.34
+   gt_cm:   min=180.38, max=356.58, mean=288.32
+Testing NYU Depth v2: 100%|███████████████████████████████████████████████████████████| 654/654 [00:07<00:00, 87.37it/s]
+
+=== NYU Depth v2 — metriche (cm) ===
+RMSE=88.28 | MAE=69.93 | AbsRel=0.269 | d1=0.541 | d2=0.815 | d3=0.936

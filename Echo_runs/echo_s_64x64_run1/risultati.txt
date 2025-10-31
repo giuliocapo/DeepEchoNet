@@ -1,0 +1,12 @@
+[INFO] Carico pesi da: Echo_runs/echo_s_64x64/checkpoints/echo_s_64x64_best.pth
+
+⚡ [INFERENCE SPEED] 288.38 FPS (3.47 ms/frame)
+
+Testing NYU Depth v2:   0%|                                                                     | 0/654 [00:00<?, ?it/s]
+[DEBUG] 00000_colors.png
+   pred_cm: min=174.43, max=395.60, mean=335.80
+   gt_cm:   min=180.20, max=356.60, mean=288.32
+Testing NYU Depth v2: 100%|███████████████████████████████████████████████████████████| 654/654 [00:07<00:00, 92.38it/s]
+
+=== NYU Depth v2 — metriche (cm) ===
+RMSE=90.43 | MAE=71.28 | AbsRel=0.275 | d1=0.519 | d2=0.809 | d3=0.935

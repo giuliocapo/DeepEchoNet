@@ -1,0 +1,19 @@
+[INFO] Carico pesi da: Echo_runs/echo_s_64x64_run3/checkpoints/echo_s_64x64_run3_best.pth
+
+[DEBUG] Decoder input / skip connections:
+   bottleneck: torch.Size([1, 96, 8, 8])
+   enc[0] → (1, 8, 32, 32)
+   enc[1] → (1, 16, 32, 32)
+   enc[2] → (1, 32, 16, 16)
+   enc[3] → (1, 64, 8, 8)
+
+⚡ [INFERENCE SPEED] 281.52 FPS (3.55 ms/frame)
+
+Testing NYU Depth v2:   0%|                                                                     | 0/654 [00:00<?, ?it/s]
+[DEBUG] 00000_colors.png
+   pred_cm: min=169.59, max=456.04, mean=352.59
+   gt_cm:   min=180.38, max=356.58, mean=288.32
+Testing NYU Depth v2: 100%|███████████████████████████████████████████████████████████| 654/654 [00:07<00:00, 89.09it/s]
+
+=== NYU Depth v2 — metriche (cm) ===
+RMSE=80.13 | MAE=63.02 | AbsRel=0.242 | d1=0.585 | d2=0.854 | d3=0.952
