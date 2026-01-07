@@ -205,3 +205,15 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Private rules
+# --- Regole specifiche per il tuo progetto ---
+
+# Model weights
+checkpoints/
+*.pth
+*.pt
+
+# Exclude system folders and cache
+__pycache__/
+.vscode/
