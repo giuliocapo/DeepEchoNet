@@ -1,5 +1,5 @@
 
-# DeepEchoNet — DeepEchoNet: A Lightweight Architecture for Extreme Low-Resolution Monocular Depth Estimation
+# DeepEchoNet: A Lightweight Architecture for Extreme Low-Resolution Monocular Depth Estimation
 
 This repository contains the official implementation of **DeepEchoNet**, a lightweight hybrid CNN–Transformer model for **monocular depth estimation (MDE)** in an **extreme low-resolution** regime (e.g., **64×64** and **96×96** inputs).  
 The project investigates accuracy–efficiency trade-offs for depth-aware perception on resource-constrained platforms and reproduces the experimental protocol and results reported in the associated thesis/paper.
