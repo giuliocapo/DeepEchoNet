@@ -87,7 +87,7 @@ This is a provisional citation entry. A final BibTeX entry will be provided once
 ```bibtex
 @misc{deepechonet2026,
   title        = {DeepEchoNet: A Lightweight Architecture for Extreme Low-Resolution Monocular Depth Estimation},
-  author       = {Giulio Caporro},
+  author       = {Giulio Caporro and Paolo Russo},
   year         = {2026},
   note         = {Code available at: https://github.com/giuliocapo/DeepEchoNet}
 }
